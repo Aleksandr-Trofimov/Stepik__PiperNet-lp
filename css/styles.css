@@ -176,12 +176,35 @@ body {
 .problem__title {
 	color: var(--main-color);
 	text-align: center;
-	margin-bottom: 1.6rem;
+	margin-bottom: 1.8rem;
 }
 .problem__description {
 	width: 1100px;
 	margin-bottom: 4rem;
 }
+.problem__description:last-child {
+	margin-bottom: 0;
+}
 .problem__description span {
 	font-weight: 700;
+}
+
+/* Hero styles */
+
+.hero {
+	padding: 128px 0;
+	background-image: url(../images/Hero-block_image.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.container blockquote {
+	display: block;
+	width: 89.3rem;
+	margin: 0 auto;
+}
+.hero__blockquote {
+	text-align: center;
+	font-size: 4.8rem;
+	font-style: italic;
+	color: #fff;
 }
