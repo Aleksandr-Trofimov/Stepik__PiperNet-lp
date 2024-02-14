@@ -86,7 +86,6 @@ body {
 	margin: 0 auto;
 	font-family: "Roboto", sans-serif;
 	font-weight: 500;
-	height: 8000px;
 }
 .container {
 	max-width: 1110px;
@@ -265,7 +264,7 @@ body {
 	align-items: center;
 }
 .team__card-pic {
-	margin-bottom: 12px;
+	margin-bottom: 1.2rem;
 }
 .team__card-thumb {
 }
@@ -276,5 +275,23 @@ body {
 	margin: 0 auto;
 }
 .team__card-description {
-	font-size: 18px;
+	font-size: 1.8rem;
+	font-style: italic;
+}
+
+/* Footer styles */
+
+.footer {
+	padding-top: 5rem;
+	padding-bottom: 6.2rem;
+	background-color: #333333;
+}
+.footer__info {
+	color: #fff;
+	max-width: 54rem;
+	font-size: 1.8rem;
+	font-weight: 400;
+	line-height: 2.1rem;
+	text-align: center;
+	margin: 0 auto;
 }
