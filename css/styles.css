@@ -208,3 +208,30 @@ body {
 	font-style: italic;
 	color: #fff;
 }
+/* PPC styles */
+
+.ppc {
+	padding-top: 4.8rem;
+	padding-bottom: 9.2rem;
+}
+.ppc__img {
+	float: left;
+	margin-right: 4.8rem;
+}
+.ppc__title {
+	color: var(--main-color);
+	text-align: center;
+	margin-bottom: 1.8rem;
+}
+.ppc__description_first-par {
+	display: inline;
+}
+.ppc__top-description {
+	margin-bottom: 4rem;
+}
+.ppc__description {
+	margin-bottom: 4rem;
+}
+.ppc__description:last-child {
+	margin-bottom: 0;
+}
