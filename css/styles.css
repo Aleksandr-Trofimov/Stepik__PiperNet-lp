@@ -208,6 +208,7 @@ body {
 	font-style: italic;
 	color: #fff;
 }
+
 /* PPC styles */
 
 .ppc {
@@ -234,4 +235,46 @@ body {
 }
 .ppc__description:last-child {
 	margin-bottom: 0;
+}
+
+/* team styles */
+
+.team {
+	padding-top: 5.8rem;
+	padding-bottom: 11.2rem;
+	background-color: #eeeeee;
+}
+.team__title {
+	color: var(--main-color);
+	text-align: center;
+	margin-bottom: 5.6rem;
+}
+.team__cards {
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	justify-items: center;
+	align-items: center;
+	row-gap: 8rem;
+	column-gap: 2.8rem;
+}
+.team__card {
+	grid-column: span 2;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.team__card-pic {
+	margin-bottom: 12px;
+}
+.team__card-thumb {
+}
+.team__card-title {
+	font-size: 2.4rem;
+	color: var(--main-color);
+	font-weight: 700;
+	margin: 0 auto;
+}
+.team__card-description {
+	font-size: 18px;
 }
